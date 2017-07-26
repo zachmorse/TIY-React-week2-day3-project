@@ -4,13 +4,14 @@ export default class Portfolio extends Component {
   render() {
     return (
       <div>
-        <p>I have a portfolio of projects, which are listed here:</p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores
-          deserunt eius unde dolor amet doloribus, minus ex suscipit quasi
-          officia. Cumque qui debitis similique quisquam dolor nesciunt illo
-          facilis esse!
-        </p>
+        <h1>
+          Aestethic requires cultivation and inspiration. I've accumulated a few
+          inspiring images here:
+        </h1>
+        <img
+          src="https://image2.redbull.com/rbx02017/0001/2/1760/507/gettyimages-185851440_0.jpg"
+          alt="weird guy"
+        />
       </div>
     );
   }
