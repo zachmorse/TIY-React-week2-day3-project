@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url("https://archive-media-0.nyafuu.org/wg/image/1447/76/1447763529801.jpg");
+  background-size: cover;
+}
+
+@font-face {
+  font-family: "AlienSolidItalic";
+  src: url("/fonts/SFAlienEncountersSolid-Ital.ttf");
+}
+
+@font-face {
+  font-family: "Lazer84";
+  src: url("/fonts/Lazer84.ttf");
+}
+
+.headerText {
+  font-family: "AlienSolidItalic";
+  font-size: 120px;
+  color: #15f2ff;
+  text-shadow: 0em 0em 0.5em #00cbd4;
+  margin: 2rem 0rem 0rem 0rem;
+}
+
+.headerSubText {
+  font-family: "Lazer84";
+  font-size: 30px;
+  color: #ff073a;
+  text-shadow: 0em 0em 0.5em #d3002b;
+  margin: 0;
+}
+
+.navText {
+  font-family: "AlienSolidItalic";
+
+  text-align: "center";
+  text-decoration: none;
+  color: #15f2ff;
+  text-shadow: 0em 0em 0.5em #00cbd4;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
