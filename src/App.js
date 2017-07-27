@@ -1,8 +1,5 @@
 import React, { Component } from "react";
-import "./styles/App.css";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-
-// component imports:
 
 import About from "./components/About";
 import BaseLayout from "./components/BaseLayout";
@@ -18,6 +15,7 @@ class App extends Component {
             <Route path="/portfolio" component={Portfolio} />
             <Route path="/about" component={About} />
             <Route path="/home" component={Home} />
+            <Route path="/" component={Home} />
           </Switch>
         </BaseLayout>
       </BrowserRouter>
